@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Todos</h1>
+      <h1>Todos</h1>
     <input type="text" v-model="todoName" @keyup.enter="createObject">
     <ul>
       <!-- animation -->
-      <transition-group enter-active-class="animate__animated animate__backInUp" leave-active-class="animate__animated animate__bounceOut">
+      <transition-group enter-active-class="animate__animated animate__backInUp" leave-active-class="animate__animated animate__backOutLeft">
       <li v-for="todo of todos" :key="todo.id">
         <div class="normal-mode">
           {{todo.name}} 

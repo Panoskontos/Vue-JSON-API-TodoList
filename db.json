@@ -13,12 +13,8 @@
       "name": "Go to the Gym"
     },
     {
-      "name": "Chat",
+      "name": "Update",
       "id": 3
-    },
-    {
-      "name": "Different",
-      "id": 4
     }
   ]
 }
